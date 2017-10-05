@@ -100,7 +100,7 @@ function myQueryCommandSupported(doc, originalQueryCommandSupported) {
       }
       break;
     }
-    return originalQueryCommandSupported.call(doc, aCommandName, aShowDefaultUI, aValueArgument);
+    return originalQueryCommandSupported.call(doc, aCommandName);
   }
 }
 
